@@ -1,5 +1,6 @@
 #title{
     background-color: #F2CD5C;
+    color: #fff;
 }
 h1{
     font-family: 'Montserrat', sans-serif;
@@ -18,9 +19,6 @@ h1{
 .nav-link{
     font-family: 'Ubuntu', sans-serif;
     color: aliceblue;
-}
-#title{
-    color: #fff;
 }
 body{
     font-family: 'Ubuntu', sans-serif;
@@ -44,21 +42,26 @@ body{
     width: 90%;
 
 }
+
+/* Features section */
+
+
 .features{
-    padding: 100px 0px 100px;
-    align-content: center;
+    padding: 7% 7%;
 }
-:root{
-    --fa-primary-color: #F2921D;
-}
-.fa-solid{
-    color: #F2921D;
-    padding-bottom: 20px;
-    width: 2000px;
-    margin: 0px auto;
+.feature-box{
+
+    text-align: center;
+    padding: 5%;
+
 }
 
-.fa-solid:hover{
+.icon{
+    color: #F2921D;
+    padding-bottom: 1rem;
+}
+
+.icon:hover{
     color: #F2CD5C;
 }
 h3{
@@ -69,4 +72,41 @@ h3{
 }
 p{
     color: #8f8f8f;
+}
+
+/* testimonials section */
+
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #F2CD5C;
+    color: aliceblue;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 4rem;
+}
+.testy-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: #F2CD5C;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.car-button{
+    background-color: None;
+    border: none;
+    fill: none;
+    fill-opacity: none;
+    fill-rule: none;
 }
