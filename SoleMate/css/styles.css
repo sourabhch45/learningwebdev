@@ -77,7 +77,6 @@ p{
 /* testimonials section */
 
 #testimonials{
-    padding: 7% 15%;
     text-align: center;
     background-color: #F2CD5C;
     color: aliceblue;
@@ -103,10 +102,31 @@ h2{
     width: 15%;
     margin: 20px 20px 50px;
 }
-.car-button{
-    background-color: None;
+.carousel-item{
+    padding: 100px;
+    padding: 7% 15%;
+
+}
+.car-button {
+    background-color: rgba(0, 0, 0, 0);
     border: none;
-    fill: none;
-    fill-opacity: none;
-    fill-rule: none;
+    color: None;
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+}
+
+.testy-name{
+    font-family: 'Montserrat', sans-serif;   
+}
+
+
+/* pricing section */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-col{
+    padding: 3% 2%;
 }
