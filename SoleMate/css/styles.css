@@ -136,3 +136,33 @@ h2{
 .pricing-col{
     padding: 3% 2%;
 }
+
+/* last part */
+#cta{
+    padding: 10%;
+    padding-bottom: 8%;
+    
+    background-color: #F2CD5C;
+    text-align: center;
+}
+.cta-text{
+    font-size: 3rem;
+    color: white;
+}
+#footer{
+    text-align: center;
+    padding: 5%;
+}
+.cta-btn {
+    padding: 0.5%;
+    padding-bottom: 2%;
+}
+    @media (max-width: 1028px){
+        .title-img{
+            position: static;
+            transform: rotate(0);
+        }
+        #title{
+            text-align: center;
+        }
+    }
